@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import {UsersService} from "./weather.service";
-import {User} from "./user";
 
 @Component({
   selector: 'app-root',

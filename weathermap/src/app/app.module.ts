@@ -4,11 +4,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './componentes/dashboard/dashboard.component';
+import { MapComponent } from './componentes/dashboard/map/map.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    MapComponent,
   ],
   imports: [
     BrowserModule,

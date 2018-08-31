@@ -15,22 +15,22 @@ export class DashboardComponent implements OnInit {
                 type: 'bar'
             },
             title: {
-                text: 'Fruit Consumption'
+                text: 'Temperatura'
             },
             xAxis: {
-                categories: ['Apples', 'Bananas', 'Oranges']
+                categories: ['Bogotá', 'Cali', 'Cartagena']
             },
             yAxis: {
                 title: {
-                    text: 'Fruit eaten'
+                    text: 'Temperatura'
                 }
             },
             series: [{
-                name: 'Jane',
-                data: [1, 5, 40]
+                name: 'Calor',
+                data: [10, 25, 50]
             }, {
-                name: 'John',
-                data: [2, 8, 30]
+                name: 'Frio',
+                data: [40, 15, 5]
             }]
         });
     });

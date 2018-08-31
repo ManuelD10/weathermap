@@ -1,0 +1,35 @@
+.ctn-menu-cities{
+  background: #ffffff;
+  box-shadow: 2px 0px 15px gray;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.logo{
+  background: url(../assets/images/logo.png);
+  width: 100%;
+  height: 53px;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
+.ctn-combo{
+  background: #0266ad;
+  margin-top: 5px;
+  padding: 15px;
+  width: 100%;
+}
+.ctn-list{
+  overflow: auto;
+  text-decoration: none;
+  height: 100vh;
+}
+.city{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-bottom: 1px solid black;
+}
+.city:hover{
+  background: #73bcf1;
+  border-bottom: 1px solid #0069b5;
+  color: white;
+}

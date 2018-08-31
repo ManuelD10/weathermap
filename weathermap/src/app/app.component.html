@@ -1,6 +1,42 @@
-<div class="container">
-
-  <app-dashboard></app-dashboard>
-
-
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2 ctn-menu-cities">
+      <div class="logo" id="logo"></div>
+      <div class="ctn-combo">
+        <select class="form-control form-control-sm">
+          <option>Temperatura</option>
+          <option>Humedad</option>
+          <option>Polución</option>
+        </select>
+      </div>
+      <div class="ctn-list">
+        <ul style="list-style: none; padding-left: 0;">
+          <li class="city">Bogotá</li>
+          <li class="city">Cali</li>
+          <li class="city">Cartagena</li>
+          <li class="city">Medellín</li>
+          <li class="city">Bucaramanga</li>
+          <li class="city">Manizales</li>
+          <li class="city">Barranquilla</li>
+          <li class="city">Santa Marta</li>
+          <li class="city">Cúcuta</li>
+          <li class="city">Pereira</li>
+          <li class="city">Pasto</li>
+          <li class="city">Neiva</li>
+          <li class="city">Armenia</li>
+          <li class="city">Popayan</li>
+          <li class="city">Villavicencio</li>
+          <li class="city">Monteria</li>
+          <li class="city">Ibague</li>
+          <li class="city">Tunja</li>
+          <li class="city">Buenaventura</li>
+          <li class="city">Sincelejo</li>
+          <li class="city">Palmira</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-10">
+      <app-dashboard></app-dashboard>
+    </div>
+  </div>
 </div>
