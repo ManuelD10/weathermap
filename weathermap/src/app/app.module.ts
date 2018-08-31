@@ -5,19 +5,15 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './componentes/dashboard/dashboard.component';
 
-import {WeatherService} from "./weather.service";
-
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
-  providers: [
-    WeatherService
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
